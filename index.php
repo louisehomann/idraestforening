@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>JL Idrætsforening</title>
+<title>CARE4U</title>
 </head>
 <style>
 /* Navbar container */
