@@ -10,6 +10,9 @@
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+  position: relative; 
+  Top: 100px;
+  
 }
 
 /* Links inside the navbar */
@@ -77,10 +80,10 @@
 </style>
 <body>
 <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
+  <a href="#home">Nyheder</a>
+  <a href="#news">Mærker</a>
   <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Hårpleje 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -89,7 +92,26 @@
       <a href="#">Link 3</a>
     </div>
   </div> 
-</div>
+  <div class="dropdown">
+    <button class="dropbtn">Hudpleje 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Mænd 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
 
 </body>
 
